@@ -1,17 +1,33 @@
 {
-  "schema_version": "v1",
-  "name_for_human": "Aimfox",
-  "name_for_model": "aimfox",
-  "description_for_human": "Use the Aimfox public API through the local aimfox CLI.",
-  "description_for_model": "Provides the aimfox-api-cli skill for Aimfox accounts, campaigns, leads, conversations, webhooks, and raw public API requests through the local aimfox CLI.",
-  "auth": {
-    "type": "service_http",
-    "authorization_type": "bearer"
+  "name": "aimfox",
+  "version": "0.1.1",
+  "description": "Aimfox API workflow plugin for Codex.",
+  "author": {
+    "name": "Brahim Hamichan",
+    "url": "https://github.com/brahimhamichan"
   },
-  "api": {
-    "type": "none"
-  },
-  "logo_url": "https://aimfox.com/favicon.ico",
-  "contact_email": "team@aimfox.com",
-  "legal_info_url": "https://aimfox.com"
+  "homepage": "https://github.com/brahimhamichan/aimfox#readme",
+  "repository": "https://github.com/brahimhamichan/aimfox",
+  "license": "MIT",
+  "keywords": ["aimfox", "linkedin", "outreach", "cli"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Aimfox",
+    "shortDescription": "Work with Aimfox accounts, campaigns, leads, conversations, and webhooks.",
+    "longDescription": "Use the local aimfox CLI and bundled endpoint reference for Aimfox public API workflows.",
+    "developerName": "Brahim Hamichan",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "CLI"],
+    "websiteURL": "https://www.aimfox.com",
+    "privacyPolicyURL": "https://www.aimfox.com/privacy",
+    "termsOfServiceURL": "https://www.aimfox.com/terms",
+    "defaultPrompt": [
+      "Check my Aimfox CLI auth status.",
+      "List my Aimfox accounts.",
+      "List Aimfox campaigns as JSON."
+    ],
+    "brandColor": "#FC421D",
+    "composerIcon": "./assets/aimfox-icon.svg",
+    "logo": "./assets/aimfox-icon.svg"
+  }
 }
