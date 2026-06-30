@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Aimfox",
+  "name_for_model": "aimfox",
+  "description_for_human": "Use the Aimfox public API through the local aimfox CLI.",
+  "description_for_model": "Provides the aimfox-api-cli skill for Aimfox accounts, campaigns, leads, conversations, webhooks, and raw public API requests through the local aimfox CLI.",
+  "auth": {
+    "type": "service_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "none"
+  },
+  "logo_url": "https://aimfox.com/favicon.ico",
+  "contact_email": "team@aimfox.com",
+  "legal_info_url": "https://aimfox.com"
+}
