@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Aimfox API",
+      "description": "Skills for Aimfox public API automation from the terminal.",
+      "skills": ["aimfox-api-cli"]
+    }
+  ]
+}

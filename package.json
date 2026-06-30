@@ -1,0 +1,55 @@
+{
+  "name": "aimfox",
+  "version": "0.1.0",
+  "description": "Agent-first CLI and Codex skill for the Aimfox public API.",
+  "license": "MIT",
+  "author": "Brahim Hamichan",
+  "type": "module",
+  "bin": {
+    "aimfox": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "skills",
+    "plugins",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "aimfox",
+    "cli",
+    "codex",
+    "plugin",
+    "skill",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahimhamichan/aimfox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brahimhamichan/aimfox/issues"
+  },
+  "homepage": "https://github.com/brahimhamichan/aimfox#readme",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"require('node:fs').chmodSync('dist/cli.js',0o755)\"",
+    "dev": "tsx src/cli.ts",
+    "test": "npm run build && node dist/self-check.js",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
