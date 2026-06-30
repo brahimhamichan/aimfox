@@ -1,0 +1,478 @@
+[
+  {
+    "name": "Assign LTD Seats",
+    "slug": "assign-ltd-seats",
+    "method": "POST",
+    "path": "/api/v2/workspaces/:workspace_id/seats/lifetime",
+    "url": "https://api.aimfox.com/api/v2/workspaces/:workspace_id/seats/lifetime"
+  },
+  {
+    "name": "Assign Agency Seats",
+    "slug": "assign-agency-seats",
+    "method": "POST",
+    "path": "/api/v2/workspaces/:workspace_id/seats/agency",
+    "url": "https://api.aimfox.com/api/v2/workspaces/:workspace_id/seats/agency"
+  },
+  {
+    "name": "Create Workspace",
+    "slug": "create-workspace",
+    "method": "POST",
+    "path": "/api/v2/workspaces",
+    "url": "https://api.aimfox.com/api/v2/workspaces"
+  },
+  {
+    "name": "Create Workspace Token",
+    "slug": "create-workspace-token",
+    "method": "POST",
+    "path": "/api/v2/workspaces/:workspace_id/tokens",
+    "url": "https://api.aimfox.com/api/v2/workspaces/:workspace_id/tokens"
+  },
+  {
+    "name": "Get Workspace Tokens",
+    "slug": "get-workspace-tokens",
+    "method": "GET",
+    "path": "/api/v2/workspaces/:workspace_id/tokens",
+    "url": "https://api.aimfox.com/api/v2/workspaces/:workspace_id/tokens"
+  },
+  {
+    "name": "Generate Client Token",
+    "slug": "generate-client-token",
+    "method": "POST",
+    "path": "/api/v2/clients/token",
+    "url": "https://api.aimfox.com/api/v2/clients/token"
+  },
+  {
+    "name": "Create Client",
+    "slug": "create-client",
+    "method": "POST",
+    "path": "/api/v2/clients",
+    "url": "https://api.aimfox.com/api/v2/clients"
+  },
+  {
+    "name": "Generate Login Token",
+    "slug": "generate-login-token",
+    "method": "POST",
+    "path": "/api/v2/token",
+    "url": "https://api.aimfox.com/api/v2/token"
+  },
+  {
+    "name": "List Accounts",
+    "slug": "list-accounts",
+    "method": "GET",
+    "path": "/api/v2/accounts",
+    "url": "https://api.aimfox.com/api/v2/accounts"
+  },
+  {
+    "name": "Get Account Limits",
+    "slug": "get-account-limits",
+    "method": "GET",
+    "path": "/api/v2/accounts/:account_id/limits",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/limits"
+  },
+  {
+    "name": "Set Account Limits",
+    "slug": "set-account-limits",
+    "method": "PATCH",
+    "path": "/api/v2/accounts/:account_id/limits",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/limits"
+  },
+  {
+    "name": "List Recent Leads",
+    "slug": "list-recent-leads",
+    "method": "GET",
+    "path": "/api/v2/analytics/recent-leads",
+    "url": "https://api.aimfox.com/api/v2/analytics/recent-leads"
+  },
+  {
+    "name": "List Interactions",
+    "slug": "list-interactions",
+    "method": "GET",
+    "path": "/api/v2/analytics/interactions",
+    "url": "https://api.aimfox.com/api/v2/analytics/interactions"
+  },
+  {
+    "name": "List Blacklisted Profiles",
+    "slug": "list-blacklisted-profiles",
+    "method": "GET",
+    "path": "/api/v2/blacklist",
+    "url": "https://api.aimfox.com/api/v2/blacklist"
+  },
+  {
+    "name": "List Blacklisted Companies",
+    "slug": "list-blacklisted-companies",
+    "method": "GET",
+    "path": "/api/v2/blacklist-companies",
+    "url": "https://api.aimfox.com/api/v2/blacklist-companies"
+  },
+  {
+    "name": "Add Companies To Blacklist",
+    "slug": "add-companies-to-blacklist",
+    "method": "POST",
+    "path": "/api/v2/blacklist-companies",
+    "url": "https://api.aimfox.com/api/v2/blacklist-companies"
+  },
+  {
+    "name": "Add Profile To Blacklist",
+    "slug": "add-profile-to-blacklist",
+    "method": "POST",
+    "path": "/api/v2/blacklist/:urn",
+    "url": "https://api.aimfox.com/api/v2/blacklist/:urn"
+  },
+  {
+    "name": "Add Profiles To Blacklist",
+    "slug": "add-profiles-to-blacklist",
+    "method": "POST",
+    "path": "/api/v2/blacklist",
+    "url": "https://api.aimfox.com/api/v2/blacklist"
+  },
+  {
+    "name": "Remove Profile From Blacklist",
+    "slug": "remove-profile-from-blacklist",
+    "method": "DELETE",
+    "path": "/api/v2/blacklist/:urn",
+    "url": "https://api.aimfox.com/api/v2/blacklist/:urn"
+  },
+  {
+    "name": "Remove Company From Blacklist",
+    "slug": "remove-company-from-blacklist",
+    "method": "DELETE",
+    "path": "/api/v2/blacklist-companies/:company_urn",
+    "url": "https://api.aimfox.com/api/v2/blacklist-companies/:company_urn"
+  },
+  {
+    "name": "List Campaigns",
+    "slug": "list-campaigns",
+    "method": "GET",
+    "path": "/api/v2/campaigns",
+    "url": "https://api.aimfox.com/api/v2/campaigns"
+  },
+  {
+    "name": "Create Campaign",
+    "slug": "create-campaign",
+    "method": "POST",
+    "path": "/api/v2/campaigns",
+    "url": "https://api.aimfox.com/api/v2/campaigns"
+  },
+  {
+    "name": "Get Campaign",
+    "slug": "get-campaign",
+    "method": "GET",
+    "path": "/api/v2/campaigns/:campaign_id",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id"
+  },
+  {
+    "name": "Delete Campaign",
+    "slug": "delete-campaign",
+    "method": "DELETE",
+    "path": "/api/v2/campaigns/:campaign_id",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id"
+  },
+  {
+    "name": "Get Campaign Metrics",
+    "slug": "get-campaign-metrics",
+    "method": "GET",
+    "path": "/api/v2/campaigns/:campaign_id/metrics",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id/metrics"
+  },
+  {
+    "name": "Add Profile to Campaign",
+    "slug": "add-profile-to-campaign",
+    "method": "POST",
+    "path": "/api/v2/campaigns/:campaign_id/audience",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id/audience"
+  },
+  {
+    "name": "Remove Profile from Campaign",
+    "slug": "remove-profile-from-campaign",
+    "method": "DELETE",
+    "path": "/api/v2/campaigns/:campaign_id/audience/:urn",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id/audience/:urn"
+  },
+  {
+    "name": "Add Profiles to Campaign With Custom Variables",
+    "slug": "add-profiles-to-campaign-with-custom-variables",
+    "method": "POST",
+    "path": "/api/v2/campaigns/:campaign_id/audience/multiple",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id/audience/multiple"
+  },
+  {
+    "name": "Update Campaign",
+    "slug": "update-campaign",
+    "method": "PATCH",
+    "path": "/api/v2/campaigns/:campaign_id",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id"
+  },
+  {
+    "name": "Get Campaign Custom Variables",
+    "slug": "get-campaign-custom-variables",
+    "method": "GET",
+    "path": "/api/v2/campaigns/:campaign_id/custom-variables",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id/custom-variables"
+  },
+  {
+    "name": "Get Campaign Target Custom Variables",
+    "slug": "get-campaign-target-custom-variables",
+    "method": "GET",
+    "path": "/api/v2/campaigns/:campaign_id/custom-variables/:urn",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id/custom-variables/:urn"
+  },
+  {
+    "name": "Add Custom Variables to Target",
+    "slug": "add-custom-variables-to-target",
+    "method": "POST",
+    "path": "/api/v2/campaigns/:campaign_id/custom-variables",
+    "url": "https://api.aimfox.com/api/v2/campaigns/:campaign_id/custom-variables"
+  },
+  {
+    "name": "List Workspace Labels",
+    "slug": "list-workspace-labels",
+    "method": "GET",
+    "path": "/api/v2/labels",
+    "url": "https://api.aimfox.com/api/v2/labels"
+  },
+  {
+    "name": "Add Label To Workspace",
+    "slug": "add-label-to-workspace",
+    "method": "POST",
+    "path": "/api/v2/labels",
+    "url": "https://api.aimfox.com/api/v2/labels"
+  },
+  {
+    "name": "Edit Workspace Label",
+    "slug": "edit-workspace-label",
+    "method": "PATCH",
+    "path": "/api/v2/labels/:label_id",
+    "url": "https://api.aimfox.com/api/v2/labels/:label_id"
+  },
+  {
+    "name": "Delete Workspace Label",
+    "slug": "delete-workspace-label",
+    "method": "DELETE",
+    "path": "/api/v2/labels/:label_id",
+    "url": "https://api.aimfox.com/api/v2/labels/:label_id"
+  },
+  {
+    "name": "Get Lead Details",
+    "slug": "get-lead-details",
+    "method": "GET",
+    "path": "/api/v2/leads/:lead_id",
+    "url": "https://api.aimfox.com/api/v2/leads/:lead_id"
+  },
+  {
+    "name": "Get Lead Custom Variables",
+    "slug": "get-lead-custom-variables",
+    "method": "GET",
+    "path": "/api/v2/accounts/:account_id/leads/:lead_urn/custom-variables",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/leads/:lead_urn/custom-variables"
+  },
+  {
+    "name": "Add Label To Lead",
+    "slug": "add-label-to-lead",
+    "method": "POST",
+    "path": "/api/v2/leads/:lead_id/labels/:label_id",
+    "url": "https://api.aimfox.com/api/v2/leads/:lead_id/labels/:label_id"
+  },
+  {
+    "name": "Search Leads",
+    "slug": "search-leads",
+    "method": "POST",
+    "path": "/api/v2/leads:search",
+    "url": "https://api.aimfox.com/api/v2/leads:search"
+  },
+  {
+    "name": "Search Lead Facets",
+    "slug": "search-lead-facets",
+    "method": "POST",
+    "path": "/api/v2/leads:search/facets/:name",
+    "url": "https://api.aimfox.com/api/v2/leads:search/facets/:name"
+  },
+  {
+    "name": "Get Total Leads Count",
+    "slug": "get-total-leads-count",
+    "method": "POST",
+    "path": "/api/v2/leads:search/total",
+    "url": "https://api.aimfox.com/api/v2/leads:search/total"
+  },
+  {
+    "name": "Remove Label From Lead",
+    "slug": "remove-label-from-lead",
+    "method": "DELETE",
+    "path": "/api/v2/leads/:lead_id/labels/:label_id",
+    "url": "https://api.aimfox.com/api/v2/leads/:lead_id/labels/:label_id"
+  },
+  {
+    "name": "List Lead Notes",
+    "slug": "list-lead-notes",
+    "method": "GET",
+    "path": "/api/v2/leads/:lead_id/notes",
+    "url": "https://api.aimfox.com/api/v2/leads/:lead_id/notes"
+  },
+  {
+    "name": "Create Lead Note",
+    "slug": "create-lead-note",
+    "method": "POST",
+    "path": "/api/v2/leads/:lead_id/notes",
+    "url": "https://api.aimfox.com/api/v2/leads/:lead_id/notes"
+  },
+  {
+    "name": "Update Lead Note",
+    "slug": "update-lead-note",
+    "method": "PATCH",
+    "path": "/api/v2/leads/:lead_id/notes/:note_id",
+    "url": "https://api.aimfox.com/api/v2/leads/:lead_id/notes/:note_id"
+  },
+  {
+    "name": "Delete Lead Note",
+    "slug": "delete-lead-note",
+    "method": "DELETE",
+    "path": "/api/v2/leads/:lead_id/notes/:note_id",
+    "url": "https://api.aimfox.com/api/v2/leads/:lead_id/notes/:note_id"
+  },
+  {
+    "name": "List Conversations",
+    "slug": "list-conversations",
+    "method": "GET",
+    "path": "/api/v2/conversations",
+    "url": "https://api.aimfox.com/api/v2/conversations"
+  },
+  {
+    "name": "Get Conversation",
+    "slug": "get-conversation",
+    "method": "GET",
+    "path": "/api/v2/accounts/:account_id/conversations/:conversation_urn",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/:conversation_urn"
+  },
+  {
+    "name": "Get Lead Conversation",
+    "slug": "get-lead-conversation",
+    "method": "GET",
+    "path": "/api/v2/accounts/:account_id/leads/:lead_id/conversation",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/leads/:lead_id/conversation"
+  },
+  {
+    "name": "Start Conversation",
+    "slug": "start-conversation",
+    "method": "POST",
+    "path": "/api/v2/accounts/:account_id/conversations",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations"
+  },
+  {
+    "name": "Start Conversation With Voice Note",
+    "slug": "start-conversation-with-voice-note",
+    "method": "POST",
+    "path": "/api/v2/accounts/:account_id/conversations/send-audio",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/send-audio"
+  },
+  {
+    "name": "Upload File",
+    "slug": "upload-file",
+    "method": "POST",
+    "path": "/api/v2/accounts/:account_id/conversations/upload-file",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/upload-file"
+  },
+  {
+    "name": "Send Message To Conversation",
+    "slug": "send-message-to-conversation",
+    "method": "POST",
+    "path": "/api/v2/accounts/:account_id/conversations/:conversation_urn",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/:conversation_urn"
+  },
+  {
+    "name": "Send Voice Note To Conversation",
+    "slug": "send-voice-note-to-conversation",
+    "method": "POST",
+    "path": "/api/v2/accounts/:account_id/conversations/:conversation_urn/send-audio",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/:conversation_urn/send-audio"
+  },
+  {
+    "name": "Read A Conversation",
+    "slug": "read-a-conversation",
+    "method": "POST",
+    "path": "/api/v2/accounts/:account_id/conversations/:conversation_urn/mark-as-read",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/:conversation_urn/mark-as-read"
+  },
+  {
+    "name": "React To Message",
+    "slug": "react-to-message",
+    "method": "POST",
+    "path": "/api/v2/accounts/:account_id/conversations/:conversation_urn/messages/:message_id/react",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/:conversation_urn/messages/:message_id/react"
+  },
+  {
+    "name": "Edit Message",
+    "slug": "edit-message",
+    "method": "PATCH",
+    "path": "/api/v2/accounts/:account_id/conversations/:conversation_urn/messages/:message_id",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/:conversation_urn/messages/:message_id"
+  },
+  {
+    "name": "Delete Message",
+    "slug": "delete-message",
+    "method": "DELETE",
+    "path": "/api/v2/accounts/:account_id/conversations/:conversation_urn/messages/:message_id",
+    "url": "https://api.aimfox.com/api/v2/accounts/:account_id/conversations/:conversation_urn/messages/:message_id"
+  },
+  {
+    "name": "List Templates",
+    "slug": "list-templates",
+    "method": "GET",
+    "path": "/api/v2/templates",
+    "url": "https://api.aimfox.com/api/v2/templates"
+  },
+  {
+    "name": "Get Template",
+    "slug": "get-template",
+    "method": "GET",
+    "path": "/api/v2/templates/:template_id",
+    "url": "https://api.aimfox.com/api/v2/templates/:template_id"
+  },
+  {
+    "name": "Create Template",
+    "slug": "create-template",
+    "method": "POST",
+    "path": "/api/v2/templates",
+    "url": "https://api.aimfox.com/api/v2/templates"
+  },
+  {
+    "name": "Edit Template",
+    "slug": "edit-template",
+    "method": "PATCH",
+    "path": "/api/v2/templates/:template_id",
+    "url": "https://api.aimfox.com/api/v2/templates/:template_id"
+  },
+  {
+    "name": "Delete Template",
+    "slug": "delete-template",
+    "method": "DELETE",
+    "path": "/api/v2/templates/:template_id",
+    "url": "https://api.aimfox.com/api/v2/templates/:template_id"
+  },
+  {
+    "name": "List Webhooks",
+    "slug": "list-webhooks",
+    "method": "GET",
+    "path": "/api/v2/webhooks",
+    "url": "https://api.aimfox.com/api/v2/webhooks"
+  },
+  {
+    "name": "Create Webhook",
+    "slug": "create-webhook",
+    "method": "POST",
+    "path": "/api/v2/webhooks",
+    "url": "https://api.aimfox.com/api/v2/webhooks"
+  },
+  {
+    "name": "Edit Webhook",
+    "slug": "edit-webhook",
+    "method": "PATCH",
+    "path": "/api/v2/webhooks/:webhook_id",
+    "url": "https://api.aimfox.com/api/v2/webhooks/:webhook_id"
+  },
+  {
+    "name": "Delete Webhook",
+    "slug": "delete-webhook",
+    "method": "DELETE",
+    "path": "/api/v2/webhooks/:webhook_id",
+    "url": "https://api.aimfox.com/api/v2/webhooks/:webhook_id"
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aimfox API CLI"
+  short_description: "Use Aimfox public API from the local aimfox CLI."
+  default_prompt: "Use aimfox-api-cli for Aimfox accounts, campaigns, leads, conversations, webhooks, and raw API requests."
