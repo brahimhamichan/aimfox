@@ -1,0 +1,20 @@
+{
+  "name": "aimfox",
+  "interface": {
+    "displayName": "Aimfox CLI"
+  },
+  "plugins": [
+    {
+      "name": "aimfox",
+      "source": {
+        "source": "local",
+        "path": "./plugins/aimfox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
