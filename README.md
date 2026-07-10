@@ -1,6 +1,6 @@
 # aimfox
 
-Agent-first CLI, endpoint reference, Codex skill, and Codex plugin files for the Aimfox public API.
+Agent-first CLI, endpoint reference, and two Codex plugins for Aimfox.
 
 This package is not affiliated with or endorsed by Aimfox.
 
@@ -36,16 +36,17 @@ aimfox api POST /api/v2/webhooks --data '{"url":"https://example.com/hook","even
 
 Use `aimfox api <METHOD> <PATH>` for routes without a wrapper. Pass query params as repeated `-q key=value`; pass JSON bodies with `--data` or `--data-file`.
 
-## Codex Skill And Plugin
+## Codex Plugins
 
 The package includes:
 
 - `skills/aimfox-api-cli`
-- `plugins/aimfox`
+- `plugins/aimfox` — official Aimfox MCP with OAuth
+- `plugins/aimfox-cli` — local `aimfox` command with API-key auth
 - `docs/endpoints.md`
 - `docs/endpoints.json`
 
-The skill tells Codex to prefer the local `aimfox` command for Aimfox API work and to avoid printing API keys.
+Use **Aimfox** for normal interactive work. Use **Aimfox CLI** for local terminal scripts and raw API calls.
 
 ## Development
 

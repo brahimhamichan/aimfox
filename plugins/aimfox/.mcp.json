@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aimfox": {
+      "type": "http",
+      "url": "https://mcp.aimfox.com",
+      "oauth_resource": "https://mcp.aimfox.com"
+    }
+  }
+}

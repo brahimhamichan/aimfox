@@ -1,7 +1,7 @@
 {
   "name": "aimfox",
-  "version": "0.1.3",
-  "description": "Aimfox API workflow plugin for Codex.",
+  "version": "0.2.0",
+  "description": "Connect Codex to Aimfox through the official OAuth MCP server.",
   "author": {
     "name": "Brahim Hamichan",
     "url": "https://github.com/brahimhamichan"
@@ -9,22 +9,23 @@
   "homepage": "https://github.com/brahimhamichan/aimfox#readme",
   "repository": "https://github.com/brahimhamichan/aimfox",
   "license": "MIT",
-  "keywords": ["aimfox", "linkedin", "outreach", "cli"],
+  "keywords": ["aimfox", "linkedin", "outreach", "mcp", "oauth"],
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Aimfox",
-    "shortDescription": "Work with Aimfox accounts, campaigns, leads, conversations, and webhooks.",
-    "longDescription": "Use the local aimfox CLI and bundled endpoint reference for Aimfox public API workflows.",
+    "shortDescription": "Manage Aimfox outreach",
+    "longDescription": "Connect your Aimfox account with OAuth to manage campaigns, leads, conversations, templates, analytics, and webhooks.",
     "developerName": "Brahim Hamichan",
     "category": "Productivity",
-    "capabilities": ["Read", "Write", "CLI"],
+    "capabilities": ["Interactive", "Read", "Write"],
     "websiteURL": "https://www.aimfox.com",
     "privacyPolicyURL": "https://www.aimfox.com/privacy",
     "termsOfServiceURL": "https://www.aimfox.com/terms",
     "defaultPrompt": [
-      "Check my Aimfox CLI auth status.",
-      "List my Aimfox accounts.",
-      "List Aimfox campaigns as JSON."
+      "Show my active Aimfox campaigns.",
+      "Find Aimfox leads who replied this week.",
+      "Summarize my unread Aimfox conversations."
     ],
     "brandColor": "#FC421D",
     "composerIcon": "./assets/aimfox-icon.svg",

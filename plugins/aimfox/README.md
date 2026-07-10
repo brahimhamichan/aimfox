@@ -1,3 +1,3 @@
 # Aimfox Codex Plugin
 
-This plugin packages the `aimfox-api-cli` skill for Aimfox API work through the `aimfox` command.
+OAuth integration for the official Aimfox MCP server. Connect an Aimfox account, then manage campaigns, leads, conversations, templates, analytics, and webhooks from Codex.

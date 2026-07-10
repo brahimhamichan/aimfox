@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aimfox"
+  short_description: "Manage Aimfox through its OAuth MCP integration."
+  default_prompt: "Use Aimfox MCP tools for campaigns, leads, conversations, templates, analytics, and webhooks."
