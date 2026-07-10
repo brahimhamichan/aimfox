@@ -1,0 +1,33 @@
+{
+  "name": "aimfox-cli",
+  "version": "0.1.3",
+  "description": "Local Aimfox CLI workflows for Codex.",
+  "author": {
+    "name": "Brahim Hamichan",
+    "url": "https://github.com/brahimhamichan"
+  },
+  "homepage": "https://github.com/brahimhamichan/aimfox#readme",
+  "repository": "https://github.com/brahimhamichan/aimfox",
+  "license": "MIT",
+  "keywords": ["aimfox", "linkedin", "outreach", "cli", "api-key"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Aimfox CLI",
+    "shortDescription": "Use Aimfox from the terminal",
+    "longDescription": "Use the local aimfox CLI and API-key authentication for scriptable Aimfox public API workflows.",
+    "developerName": "Brahim Hamichan",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "CLI"],
+    "websiteURL": "https://www.aimfox.com",
+    "privacyPolicyURL": "https://www.aimfox.com/privacy",
+    "termsOfServiceURL": "https://www.aimfox.com/terms",
+    "defaultPrompt": [
+      "Check my Aimfox CLI auth status.",
+      "List my Aimfox accounts.",
+      "List Aimfox campaigns as JSON."
+    ],
+    "brandColor": "#FC421D",
+    "composerIcon": "./assets/aimfox-icon.svg",
+    "logo": "./assets/aimfox-icon.svg"
+  }
+}
